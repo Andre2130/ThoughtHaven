@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.diary.thoughthaven.Activities.SplashScreen">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:background="@drawable/logo"
+        android:scaleType="fitCenter" />
+
+    <ProgressBar
+        android:id="@+id/splash_screen_progress_bar"
+        style="@android:style/Widget.DeviceDefault.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:progressTint="@color/progress_bar_tint" />
+
+</LinearLayout>
+
+

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "995617117262",
+    "firebase_url": "https://thoughthaven-24bd0.firebaseio.com",
+    "project_id": "thoughthaven-24bd0",
+    "storage_bucket": "thoughthaven-24bd0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995617117262:android:01b2b2bd0e3a4649",
+        "android_client_info": {
+          "package_name": "com.diary.thoughthaven"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995617117262-67c5ed2sgshs2mp0i4rrlcqnpb85dn3r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.diary.thoughthaven",
+            "certificate_hash": "fc690199bd6d944038917c9929259108884f75f4"
+          }
+        },
+        {
+          "client_id": "995617117262-fba47dimsutn5lpfdjqf3786fl51rkgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8uVI-kXRHqJYYmOx1bb9xVYRSRG9tngc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995617117262-fba47dimsutn5lpfdjqf3786fl51rkgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

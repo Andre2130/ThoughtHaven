@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background_color"
+    tools:context=".Activities.NoteActivity">
+
+    <EditText
+        android:id="@+id/note_et_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:hint="Tittle"
+        android:background="@drawable/edittext"
+        android:maxLines="1"
+        android:inputType="textCapSentences"
+        android:singleLine="true" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/note_et_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/note_et_title"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/edittext"
+        android:layout_alignRight="@+id/note_et_title"
+        android:layout_below="@+id/note_et_title"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="Enter your note"
+        android:inputType="textMultiLine|textCapSentences" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="37dp"
+        android:layout_marginEnd="25dp"
+        android:text="Add Image" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/note_et_title"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="28dp"
+        app:srcCompat="@android:drawable/ic_menu_report_image" />
+
+</RelativeLayout>
